@@ -1,0 +1,177 @@
+{
+    "levels": [
+        {
+            "description": "Stack the shapes",
+            "environmentShapes": [
+                { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 220 },
+                { "type": "square", "width": 220 },
+                { "type": "square", "width": 220 },
+                { "type": "square", "width": 220 },
+                { "type": "triangle", "width": 220, "height": 100 }
+            ]
+        }, { 
+            "description": "Don't let them fall over",
+            "environmentShapes": [
+                { "type": "square", "width": 400.0, "height": 100, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 275 },
+                { "type": "square", "width": 230 },
+                { "type": "square", "width": 180 },
+                { "type": "square", "width": 150 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 75 }
+            ]
+        }, {
+            "description": "How high can you go?",
+            "environmentShapes": [
+                { "type": "square", "width": 100, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "triangle", "width": 100, "height": 80 }
+            ]
+        }, {
+            "description": "Upside down",
+            "environmentShapes": [
+                { "type": "square", "width": 100, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 60 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 150 },
+                { "type": "square", "width": 200 },
+                { "type": "square", "width": 450 }
+            ] 
+        }, { 
+            "description": "Arches",
+            "environmentShapes": [
+                { "type": "square", "width": 100, "height": 100, "pos": [200, -600] },
+                { "type": "square", "width": 100, "height": 100, "pos": [-200, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "triangle", "width": 500, "height": 200 }
+            ] 
+        }, { 
+            "description": "Bridge",
+            "environmentShapes": [
+                { "type": "square", "width": 100, "height": 100, "pos": [0, -650] },
+                { "type": "square", "width": 50, "height": 300, "pos": [-350, -550] },
+                { "type": "square", "width": 50, "height": 300, "pos": [350, -550] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 100, "height": 220 },
+                { "type": "square", "width": 370, "height": 50 },
+                { "type": "square", "width": 370, "height": 50 },
+                { "type": "square", "width": 100, "height": 280 },
+                { "type": "square", "width": 100, "height": 280 },
+                { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 },
+                { "type": "triangle", "width": 800, "height": 200 }
+            ] 
+        }, { 
+            "description": "Sandwich",
+            "environmentShapes": [
+                { "type": "square", "width": 600, "height": 100, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "circle", "diameter": 250 },
+                { "type": "circle", "diameter": 250 },
+                { "type": "square", "width": 600, "height": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "circle", "diameter": 250 },
+                { "type": "circle", "diameter": 250 },
+                { "type": "triangle", "width": 500, "height": 200 }
+            ]
+        }, { 
+            "description": "KatiesLEVEL",
+            "environmentShapes": [
+                { "type": "square", "width": 100, "height": 100, "pos": [0, -600] },
+                { "type": "square", "width": 125, "height": 100, "pos": [200, -600] },
+                { "type": "square", "width": 125, "height": 100, "pos": [-200, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 100, "height": 220 },
+                { "type": "square", "width": 125, "height": 75 },
+                { "type": "square", "width": 125, "height": 75 },
+                { "type": "square", "width": 125, "height": 75 },
+                { "type": "square", "width": 125, "height": 75 },
+                { "type": "square", "width": 125, "height": 75 },
+                { "type": "square", "width": 125, "height": 75 },
+                { "type": "square", "width": 125, "height": 75 },
+                { "type": "square", "width": 125, "height": 75 },
+                { "type": "square", "width": 100, "height": 75 },
+                { "type": "triangle", "width": 500, "height": 200 }
+            ],
+            "weather": [
+                { "type": "hail", "delay": 2 }
+            ] 
+        }, 
+
+
+
+
+
+
+        { 
+            "description": "Protect your shapes from weather",
+            "environmentShapes": [
+                {
+                    "type": "square", "width": 600, "height": 50, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "circle", "diameter": 300 },
+                { "type": "triangle", "width": 600, "height": 200 }
+            ],
+            "weather": [
+                { "type": "hail", "delay": 2 }
+            ] 
+        }, { 
+            "description": "Stack the shapes",
+            "environmentShapes": [
+                { "type": "square", "width": 400.0, "height": 50, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "circle", "diameter": 200 },
+                { "type": "square", "width": 250 },
+                { "type": "square", "width": 200 },
+                { "type": "square", "width": 150 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 75 }
+            ]
+        }
+    ] }

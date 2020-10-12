@@ -1,0 +1,8 @@
+cd "$(dirname "$0")"
+
+echo "Uploading files"
+git status
+git add -A
+git commit -m "Update levels"
+git push
+echo "Done!"
