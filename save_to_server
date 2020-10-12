@@ -5,4 +5,7 @@ git status
 git add -A
 git commit -m "Update levels"
 git push
-echo "Done!"
+
+echo "============"
+echo "= Finished ="
+echo "============"
