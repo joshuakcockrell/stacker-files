@@ -1,11 +1,17 @@
 cd "$(dirname "$0")"
 
-echo "Uploading files"
+echo ""
+echo "======================="
+echo "=== Uploading files ==="
+echo "======================="
+echo ""
+
 git status
 git add -A
 git commit -m "Update levels"
 git push
 
-echo "============"
-echo "= Finished ="
-echo "============"
+echo ""
+echo "================"
+echo "=== Finished ==="
+echo "================"
