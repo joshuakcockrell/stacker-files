@@ -1,6 +1,13 @@
 {
     "levels": [
         {
+            "description": "Test",
+            "environmentShapes": [
+            ],
+            "shapes": [
+                { "type": "square", "width": 220 }
+            ]
+        }, {
             "description": "Stack the shapes",
             "environmentShapes": [
                 { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
