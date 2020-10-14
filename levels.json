@@ -6,7 +6,7 @@
                 { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
             ],
             "shapes": [
-                { "type": "tirangleRight", "width": 100, "height": 100 }
+                { "type": "triangleRight", "width": 100, "height": 100 }
             ]
         }, {
             "description": "Stack the shapes",
