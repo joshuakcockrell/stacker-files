@@ -1,6 +1,14 @@
 {
     "levels": [
         {
+            "description": "TEST LEVEL",
+            "environmentShapes": [
+                { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "tirangleRight", "width": 100, "height": 100 }
+            ]
+        }, {
             "description": "Stack the shapes",
             "environmentShapes": [
                 { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
@@ -112,34 +120,7 @@
                 { "type": "triangle", "width": 500, "height": 200 }
             ]
         }, { 
-            "description": "KatiesLEVEL",
-            "environmentShapes": [
-                { "type": "square", "width": 100, "height": 100, "pos": [0, -600] },
-                { "type": "square", "width": 125, "height": 100, "pos": [200, -600] },
-                { "type": "square", "width": 125, "height": 100, "pos": [-200, -600] }
-            ],
-            "shapes": [
-                { "type": "square", "width": 100, "height": 220 },
-                { "type": "square", "width": 125, "height": 75 },
-                { "type": "square", "width": 125, "height": 75 },
-                { "type": "square", "width": 125, "height": 75 },
-                { "type": "square", "width": 125, "height": 75 },
-                { "type": "square", "width": 125, "height": 75 },
-                { "type": "square", "width": 125, "height": 75 },
-                { "type": "square", "width": 125, "height": 75 },
-                { "type": "square", "width": 125, "height": 75 },
-                { "type": "square", "width": 100, "height": 75 },
-                { "type": "triangle", "width": 500, "height": 200 }
-            ],
-            "weather": [
-                { "type": "hail", "delay": 2 }
-            ] 
-        }, 
-
-
-
-        { 
-            "description": "Protect your shapes from weather",
+            "description": "Protect your shapes from hail",
             "environmentShapes": [
                 {
                     "type": "square", "width": 600, "height": 50, "pos": [0, -600] }
@@ -157,18 +138,13 @@
             "weather": [
                 { "type": "hail", "delay": 2 }
             ] 
-        }, { 
-            "description": "Stack the shapes",
+        }, {
+            "description": "Last level (we need to make more",
             "environmentShapes": [
-                { "type": "square", "width": 400.0, "height": 50, "pos": [0, -600] }
+                { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
             ],
             "shapes": [
-                { "type": "circle", "diameter": 200 },
-                { "type": "square", "width": 250 },
-                { "type": "square", "width": 200 },
-                { "type": "square", "width": 150 },
-                { "type": "square", "width": 100 },
-                { "type": "square", "width": 75 }
+                { "type": "square", "width": 220 }
             ]
         }
     ] }
