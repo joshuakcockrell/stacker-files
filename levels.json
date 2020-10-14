@@ -1,7 +1,7 @@
 {
     "levels": [
         {
-            "description": "TEST LEVELll",
+            "description": "TEST LEVELll2",
             "environmentShapes": [
                 { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
             ],
