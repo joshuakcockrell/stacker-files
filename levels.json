@@ -140,18 +140,10 @@
                 { "type": "square", "width": 220 }
             ]
         }, {
-            "description": "TEST LEVEL",
-            "environmentShapes": [
-                { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
-            ],
-            "shapes": [
-                { "type": "triangleRight", "width": 200, "height": 200 },
-                { "type": "triangleRight", "width": 200, "height": 200, "deg": 90 }
-            ]
-        }, {
             "description": "Ramps",
             "environmentShapes": [
-                { "type": "square", "width": 400.0, "height": 50, "pos": [0, -600], "deg": 10 }
+                { "type": "square", "width": 600.0, "height": 50, "pos": [200, 300], "deg": 5 },
+                { "type": "square", "width": 600.0, "height": 50, "pos": [-200, 200], "deg": -5 }
             ],
             "shapes": [
                 { "type": "circle", "diameter": 200 },
