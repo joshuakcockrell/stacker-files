@@ -1,6 +1,19 @@
 {
     "levels": [
         {
+            "description": "Ramps",
+            "environmentShapes": [
+                { "type": "square", "width": 400.0, "height": 50, "pos": [0, -600], "deg": 10 }
+            ],
+            "shapes": [
+                { "type": "circle", "diameter": 200 },
+                { "type": "circle", "diameter": 200 },
+                { "type": "circle", "diameter": 200 },
+                { "type": "circle", "diameter": 200 },
+                { "type": "circle", "diameter": 200 },
+                { "type": "square", "width": 200 }
+            ]
+        }, {
             "description": "Touch to stack shapes",
             "environmentShapes": [
                 { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
