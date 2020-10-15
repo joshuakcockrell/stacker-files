@@ -91,6 +91,8 @@
                 { "type": "circle", "diameter": 100 },
                 { "type": "circle", "diameter": 100 },
                 { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 },
                 { "type": "triangle", "width": 800, "height": 200 }
             ]
         }, {
@@ -134,10 +136,10 @@
         }, {
             "description": "Ramps",
             "environmentShapes": [
-                { "type": "square", "width": 500.0, "height": 50, "pos": [150, 300], "deg": 10 },
-                { "type": "square", "width": 500.0, "height": 50, "pos": [-150, 100], "deg": -10 },
-                { "type": "square", "width": 500.0, "height": 50, "pos": [150, -100], "deg": 10 },
-                { "type": "square", "width": 500.0, "height": 50, "pos": [-150, -300], "deg": -10 }            ],
+                { "type": "square", "width": 400.0, "height": 50, "pos": [175, 300], "deg": 15 },
+                { "type": "square", "width": 400.0, "height": 50, "pos": [-175, 100], "deg": -15 },
+                { "type": "square", "width": 400.0, "height": 50, "pos": [175, -100], "deg": 15 },
+                { "type": "square", "width": 400.0, "height": 50, "pos": [-175, -300], "deg": -15 }            ],
             "shapes": [
                 { "type": "circle", "diameter": 100 },
                 { "type": "circle", "diameter": 100 },
@@ -148,7 +150,7 @@
             ],
             "cantSkip": true
         }, {
-            "description": "Last level (we need to make more",
+            "description": "Last level (we need to make more)",
             "environmentShapes": [
                 { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
             ],
