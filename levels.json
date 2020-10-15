@@ -134,17 +134,17 @@
         }, {
             "description": "Ramps",
             "environmentShapes": [
-                { "type": "square", "width": 500.0, "height": 50, "pos": [200, 300], "deg": 5 },
-                { "type": "square", "width": 500.0, "height": 50, "pos": [-200, 100], "deg": -5 },
-                { "type": "square", "width": 500.0, "height": 50, "pos": [200, -100], "deg": 5 },
-                { "type": "square", "width": 500.0, "height": 50, "pos": [-200, -300], "deg": -5 }            ],
+                { "type": "square", "width": 500.0, "height": 50, "pos": [150, 300], "deg": 5 },
+                { "type": "square", "width": 500.0, "height": 50, "pos": [-150, 100], "deg": -5 },
+                { "type": "square", "width": 500.0, "height": 50, "pos": [150, -100], "deg": 5 },
+                { "type": "square", "width": 500.0, "height": 50, "pos": [-150, -300], "deg": -5 }            ],
             "shapes": [
                 { "type": "circle", "diameter": 100 },
                 { "type": "circle", "diameter": 100 },
                 { "type": "circle", "diameter": 100 },
                 { "type": "circle", "diameter": 100 },
                 { "type": "circle", "diameter": 100 },
-                { "type": "square", "width": 100 }
+                { "type": "circle", "diameter": 100 }
             ],
             "cantSkip": true
         }, {
