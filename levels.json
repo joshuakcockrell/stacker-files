@@ -53,9 +53,10 @@
                 { "type": "square", "width": 150 },
                 { "type": "square", "width": 200 },
                 { "type": "square", "width": 450 }
-            ]
+            ],
+            "cantSkip": true
         }, {
-            "description": "Arches",
+            "description": "Roof",
             "environmentShapes": [
                 { "type": "square", "width": 100, "height": 100, "pos": [200, -600] },
                 { "type": "square", "width": 100, "height": 100, "pos": [-200, -600] }
