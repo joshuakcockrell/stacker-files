@@ -150,14 +150,6 @@
             ],
             "cantSkip": true
         }, {
-            "description": "Last level (we need to make more)",
-            "environmentShapes": [
-                { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
-            ],
-            "shapes": [
-                { "type": "square", "width": 220 }
-            ]
-        }, {
             "description": "Piramid",
             "environmentShapes": [
                 {
@@ -176,5 +168,13 @@
             "weather": [
                 { "type": "hail", "delay": 2 }
             ]
-        },
+        }, {
+            "description": "Last level (we need to make more)",
+            "environmentShapes": [
+                { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 220 }
+            ]
+        }
     ] }
