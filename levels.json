@@ -156,16 +156,343 @@
                     "type": "square", "width": 700, "height": 50, "pos": [0, -600] }
             ],
             "shapes": [
-                { "type": "triangleRight", "width": 120, "deg": 180 },
+                { "type": "triangleRight", "width": 120, "deg": 90 },
+                { "type": "triangleRight", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "triangleRight", "width": 120, "deg": 90 },
                 { "type": "triangleRight", "width": 120 },
                 { "type": "square", "width": 120 },
                 { "type": "square", "width": 120 },
                 { "type": "square", "width": 120 },
-                { "type": "square", "width": 120 }
+                { "type": "triangleRight", "width": 120, "deg": 90 },
+                { "type": "square", "width": 120 },
+                { "type": "triangleRight", "width": 120 }
             ],
             "weather": [
             ]
         }, {
+            "description": "Play Pen",
+            "environmentShapes": [
+                {"type": "circle", "diameter": 50, "pos": [150, -550]},
+                {"type": "circle", "diameter": 50, "pos": [-150, -550]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 550, "height": 50, "deg": 0},
+                {"type": "square", "width": 200, "height": 300, "deg": 0},
+                {"type": "square", "width": 200, "height": 300, "deg": 0},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100}
+            ]
+        }, {
+            "description": "Quintuple decker bus",
+            "environmentShapes": [
+                {"type": "circle", "diameter": 100, "pos": [200, -550]},
+                {"type": "circle", "diameter": 100, "pos": [-200, -550]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 600, "height": 80, "deg": 0},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "square", "width": 600, "height": 80, "deg": 0},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "square", "width": 600, "height": 80, "deg": 0},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "square", "width": 600, "height": 80, "deg": 0},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "square", "width": 600, "height": 80, "deg": 0}
+            ]
+        }, {
+            "description": "Stickman",
+            "environmentShapes": [
+                {"type": "circle", "diameter": 100, "pos": [-300, -500]},
+                {"type": "circle", "diameter": 100, "pos": [300, -500]},
+                {"type": "circle", "diameter": 100, "pos": [0, -250]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 80, "height": 400, "deg": 0},
+                {"type": "square", "width": 80, "height": 400, "deg": 0},
+                {"type": "square", "width": 200, "height": 300, "deg": 0},
+                {"type": "square", "width": 600, "height": 60, "deg": 0},
+                {"type": "circle", "diameter": 300, "deg": 0}
+            ]
+        }, {
+            "description": "Skyscrapers",
+            "environmentShapes": [
+                {"type": "square", "width": 110, "height": 50, "deg": 0, "pos": [-175, -550]},
+                {"type": "square", "width": 110, "height": 50, "deg": 0, "pos": [175, -550]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "circle", "diameter": 100},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "circle", "diameter": 100}
+            ]
+        }, {
+            "description": "Shakey foundation",
+            "environmentShapes": [
+                {"type": "square", "width": 200, "height": 50, "deg": 0, "pos": [0, -550]}
+            ],
+            "shapes": [
+                {"type": "triangleRight", "width": 120, "deg": 90 },
+                {"type": "triangleRight", "width": 120, "deg": 0 },
+                {"type": "triangleRight", "width": 150, "deg": 45 },
+                {"type": "square", "width": 200, "height": 200, "deg": 0},
+                {"type": "square", "width": 200, "height": 200, "deg": 0},
+                {"type": "square", "width": 200, "height": 200, "deg": 0},
+                {"type": "square", "width": 400, "height": 300, "deg": 0}
+            ]
+        }, {
+            "description": "Snowcone",
+            "environmentShapes": [
+                {"type": "square", "width": 200, "height": 100, "deg": 0, "pos": [0, -500]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 60, "height": 60, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 150, "height": 100, "deg": 0},
+                {"type": "square", "width": 200, "height": 100, "deg": 0},
+                {"type": "square", "width": 250, "height": 100, "deg": 0},
+                {"type": "circle", "diameter": 300}
+            ],
+            "cantSkip": true
+        }, {
+            "description": "Tall teepee",
+            "environmentShapes": [
+                {"type": "circle", "diameter": 130, "pos": [-200, -500]},
+                {"type": "circle", "diameter": 130, "pos": [200, -500]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 80, "height": 700, "deg": 0},
+                {"type": "square", "width": 80, "height": 700, "deg": 0}
+            ]
+        }, {
+            "description": "Crows Nest",
+            "environmentShapes": [
+                {"type": "square", "width": 100, "height": 100, "deg": 0, "pos": [0, -500]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 600, "height": 50, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100}
+            ]
+        }, {
+            "description": "What the..",
+            "environmentShapes": [
+                {"type": "square", "width": 140, "height": 100, "deg": 0, "pos": [230, -720], "invisible": true}
+            ],
+            "shapes": [
+                {"type": "circle", "diameter": 100}
+            ]
+        }, {
+            "description": "Shaky foundation",
+            "environmentShapes": [
+                {"type": "square", "width": 200, "height": 50, "deg": 0, "pos": [-200, -500]},
+                {"type": "square", "width": 200, "height": 50, "deg": 0, "pos": [200, -500]}
+            ],
+            "shapes": [
+                {"type": "circle", "diameter": 80},
+                {"type": "square", "width": 200, "height": 40, "deg": 0},
+                {"type": "circle", "diameter": 80},
+                {"type": "square", "width": 200, "height": 40, "deg": 0},
+                {"type": "circle", "diameter": 80},
+                {"type": "square", "width": 200, "height": 40, "deg": 0},
+                {"type": "circle", "diameter": 80},
+                {"type": "square", "width": 200, "height": 40, "deg": 0},
+                {"type": "square", "width": 600, "height": 40, "deg": 0},
+                {"type": "circle", "diameter": 160},
+                {"type": "circle", "diameter": 160}
+            ]
+        },
+        {
+            "description": "Quick Fingers",
+            "environmentShapes": [
+                {"type": "square", "width": 400, "height": 50, "deg": 0, "pos": [0, -500]}
+            ],
+            "shapes": [
+                {"type": "circle", "diameter": 50},
+                {"type": "circle", "diameter": 50},
+                {"type": "square", "width": 300, "height": 300, "deg": 0},
+                {"type": "square", "width": 300, "height": 300, "deg": 0},
+                {"type": "square", "width": 300, "height": 300, "deg": 0},
+                {"type": "square", "width": 300, "height": 300, "deg": 0}
+            ]
+        },
+        {
+            "description": "Lollipop",
+            "environmentShapes": [
+                {"type": "square", "width": 80, "height": 80, "deg": 0, "pos": [0, -500]},
+                {"type": "circle", "diameter": 40, "pos": [0, 0]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 80, "height": 80, "deg": 0},
+                {"type": "square", "width": 80, "height": 80, "deg": 0},
+                {"type": "square", "width": 80, "height": 80, "deg": 0},
+                {"type": "square", "width": 80, "height": 80, "deg": 0},
+                {"type": "square", "width": 80, "height": 80, "deg": 0},
+                {"type": "square", "width": 400, "height": 40, "deg": 0},
+                {"type": "square", "width": 160, "height": 160, "deg": 0},
+                {"type": "square", "width": 160, "height": 160, "deg": 0},
+                {"type": "square", "width": 160, "height": 160, "deg": 0},
+                {"type": "square", "width": 160, "height": 160, "deg": 0},
+                {"type": "square", "width": 80, "height": 80, "deg": 0},
+                {"type": "square", "width": 80, "height": 80, "deg": 0},
+                {"type": "square", "width": 80, "height": 80, "deg": 0},
+                {"type": "square", "width": 160, "height": 80, "deg": 0}
+            ]
+        },
+        {
+            "description": "Slippery slope",
+            "environmentShapes": [
+                {"type": "circle", "diameter": 30, "pos": [-300, -500]},
+                {"type": "circle", "diameter": 30, "pos": [-100, -500]}
+            ],
+            "shapes": [
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40}
+            ]
+        },
+        {
+            "description": "Tree house",
+            "environmentShapes": [
+                {"type": "square", "width": 100, "height": 100, "deg": 0, "pos": [0, -500]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 600, "height": 50, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 300, "deg": 0},
+                {"type": "square", "width": 100, "height": 300, "deg": 0},
+                {"type": "square", "width": 100, "height": 300, "deg": 0},
+                {"type": "square", "width": 100, "height": 300, "deg": 0},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40},
+                {"type": "circle", "diameter": 40}
+            ]
+        },
+        {
+            "description": "Leaning Squares",
+            "environmentShapes": [
+                {"type": "circle", "diameter": 30, "pos": [-40, -550]},
+                {"type": "circle", "diameter": 30, "pos": [150, -350]},
+                {"type": "circle", "diameter": 30, "pos": [-150, -150]},
+                {"type": "circle", "diameter": 30, "pos": [150, 50]},
+                {"type": "circle", "diameter": 30, "pos": [-150, 250]},
+                {"type": "circle", "diameter": 30, "pos": [150, 450]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 120, "height": 120, "deg": 0},
+                {"type": "square", "width": 120, "height": 120, "deg": 0},
+                {"type": "square", "width": 120, "height": 120, "deg": 0},
+                {"type": "square", "width": 120, "height": 120, "deg": 0},
+                {"type": "square", "width": 120, "height": 120, "deg": 0},
+                {"type": "square", "width": 120, "height": 120, "deg": 0},
+                {"type": "square", "width": 120, "height": 120, "deg": 0},
+                {"type": "square", "width": 120, "height": 120, "deg": 0},
+                {"type": "square", "width": 120, "height": 120, "deg": 0},
+                {"type": "square", "width": 120, "height": 120, "deg": 0}
+            ]
+        },
+        {
+            "description": "Clogged drain",
+            "environmentShapes": [
+                {"type": "circle", "diameter": 1000, "pos": [650, -550]},
+                {"type": "circle", "diameter": 1000, "pos": [-650, -550]}
+            ],
+            "shapes": [
+                {"type": "triangleRight", "width": 350, "deg": 90 },
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100}
+            ]
+        },
+        {
+            "description": "Ruining the party",
+            "environmentShapes": [
+                { "type": "triangleRight", "width": 330, "height": 150, "pos": [-200, -600] },
+                { "type": "triangleRight", "width": 150, "height": 330, "pos": [200, -600], "deg": 90 }
+            ],
+            "shapes": [
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "square", "width": 500, "height": 900, "deg": 0}
+            ]
+        },
+        {
             "description": "Last level (we need to make more)",
             "environmentShapes": [
                 { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
@@ -174,4 +501,10 @@
                 { "type": "square", "width": 220 }
             ]
         }
-    ] }
+
+
+
+
+
+    ]
+}
