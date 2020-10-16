@@ -1,14 +1,6 @@
 {
     "levels": [
         {
-            "description": "Test triangles",
-            "environmentShapes": [
-                { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
-            ],
-            "shapes": [
-                { "type": "triangle", "width": 150, "height": 150, "deg": 90 }
-            ]
-        }, {
             "description": "Touch to stack shapes",
             "environmentShapes": [
                 { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
@@ -165,5 +157,24 @@
             "shapes": [
                 { "type": "square", "width": 220 }
             ]
-        }
+        }, {
+            "description": "Piramid",
+            "environmentShapes": [
+                {
+                    "type": "square", "width": 900, "height": 50, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "circle", "diameter": 300 },
+                { "type": "triangle", "width": 600, "height": 200 }
+            ],
+            "weather": [
+                { "type": "hail", "delay": 2 }
+            ]
+        },
     ] }
