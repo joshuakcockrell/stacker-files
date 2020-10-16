@@ -153,13 +153,25 @@
             "description": "Piramid",
             "environmentShapes": [
                 {
-                    "type": "square", "width": 900, "height": 50, "pos": [0, -600] }
+                    "type": "square", "width": 700, "height": 50, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "triangleRight", "width": 120 }
+            ],
+            "weather": [
+            ]
+        }, {
+            "description": "Piramid",
+            "environmentShapes": [
+                {
+                    "type": "square", "width": 700, "height": 50, "pos": [0, -600] }
             ],
             "shapes": [
                 { "type": "square", "width": 120 },
                 { "type": "square", "width": 120 },
                 { "type": "square", "width": 120 },
                 { "type": "square", "width": 120 },
+                { "type": "triangleRight", "width": 120 },
                 { "type": "square", "width": 120 },
                 { "type": "square", "width": 120 },
                 { "type": "circle", "diameter": 300 },
