@@ -6,7 +6,7 @@
                 { "type": "square", "width": 220.0, "height": 100, "pos": [0, -600] }
             ],
             "shapes": [
-                { "type": "triangle", "width": 150, "height": 150, "deg": 90 },
+                { "type": "triangle", "width": 150, "height": 150, "deg": 90 }
             ]
         }, {
             "description": "Touch to stack shapes",
