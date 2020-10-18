@@ -413,16 +413,16 @@
                 {"type": "circle", "diameter": 60, "pos": [150, 450]}
             ],
             "shapes": [
-                {"type": "square", "width": 120, "height": 120, "deg": 0},
-                {"type": "square", "width": 120, "height": 120, "deg": 0},
-                {"type": "square", "width": 120, "height": 120, "deg": 0},
-                {"type": "square", "width": 120, "height": 120, "deg": 0},
-                {"type": "square", "width": 120, "height": 120, "deg": 0},
-                {"type": "square", "width": 120, "height": 120, "deg": 0},
-                {"type": "square", "width": 120, "height": 120, "deg": 0},
-                {"type": "square", "width": 120, "height": 120, "deg": 0},
-                {"type": "square", "width": 120, "height": 120, "deg": 0},
-                {"type": "square", "width": 120, "height": 120, "deg": 0}
+                {"type": "square", "width": 120, "deg": 0},
+                {"type": "square", "width": 120, "deg": 0},
+                {"type": "square", "width": 120, "deg": 0},
+                {"type": "square", "width": 120, "deg": 0},
+                {"type": "square", "width": 120, "deg": 0},
+                {"type": "square", "width": 120, "deg": 0},
+                {"type": "square", "width": 120, "deg": 0},
+                {"type": "square", "width": 120, "deg": 0},
+                {"type": "square", "width": 120, "deg": 0},
+                {"type": "square", "width": 120, "deg": 0}
             ]
         },
         {
