@@ -392,14 +392,14 @@
                 {"type": "square", "width": 100, "height": 300, "deg": 0},
                 {"type": "square", "width": 100, "height": 300, "deg": 0},
                 {"type": "square", "width": 100, "height": 300, "deg": 0},
-                {"type": "circle", "diameter": 40},
-                {"type": "circle", "diameter": 40},
-                {"type": "circle", "diameter": 40},
-                {"type": "circle", "diameter": 40},
-                {"type": "circle", "diameter": 40},
-                {"type": "circle", "diameter": 40},
-                {"type": "circle", "diameter": 40},
-                {"type": "circle", "diameter": 40}
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80}
             ]
         },
         {
