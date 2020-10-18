@@ -405,12 +405,12 @@
         {
             "description": "Leaning Squares",
             "environmentShapes": [
-                {"type": "circle", "diameter": 30, "pos": [-40, -550]},
-                {"type": "circle", "diameter": 30, "pos": [150, -350]},
-                {"type": "circle", "diameter": 30, "pos": [-150, -150]},
-                {"type": "circle", "diameter": 30, "pos": [150, 50]},
-                {"type": "circle", "diameter": 30, "pos": [-150, 250]},
-                {"type": "circle", "diameter": 30, "pos": [150, 450]}
+                {"type": "circle", "diameter": 60, "pos": [-40, -550]},
+                {"type": "circle", "diameter": 60, "pos": [150, -350]},
+                {"type": "circle", "diameter": 60, "pos": [-150, -150]},
+                {"type": "circle", "diameter": 60, "pos": [150, 50]},
+                {"type": "circle", "diameter": 60, "pos": [-150, 250]},
+                {"type": "circle", "diameter": 60, "pos": [150, 450]}
             ],
             "shapes": [
                 {"type": "square", "width": 120, "height": 120, "deg": 0},
