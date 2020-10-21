@@ -132,7 +132,7 @@
                 { "type": "hail", "delay": 2 }
             ]
         }, {
-            "description": "Piramid",
+            "description": "Hail on the piramid",
             "environmentShapes": [
                 {
                     "type": "square", "width": 700, "height": 50, "pos": [0, -600] }
