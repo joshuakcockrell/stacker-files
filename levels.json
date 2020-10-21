@@ -83,25 +83,6 @@
                 { "type": "triangle", "width": 800, "height": 200 }
             ]
         }, {
-            "description": "Sandwich",
-            "environmentShapes": [
-                { "type": "square", "width": 600, "height": 100, "pos": [0, -600] }
-            ],
-            "shapes": [
-                { "type": "square", "width": 100 },
-                { "type": "square", "width": 100 },
-                { "type": "square", "width": 100 },
-                { "type": "circle", "diameter": 250 },
-                { "type": "circle", "diameter": 250 },
-                { "type": "square", "width": 600, "height": 100 },
-                { "type": "square", "width": 100 },
-                { "type": "square", "width": 100 },
-                { "type": "square", "width": 100 },
-                { "type": "circle", "diameter": 250 },
-                { "type": "circle", "diameter": 250 },
-                { "type": "triangle", "width": 500, "height": 200 }
-            ]
-        }, {
             "description": "Ramps",
             "environmentShapes": [
                 { "type": "square", "width": 400.0, "height": 50, "pos": [175, 300], "deg": 15 },
@@ -380,6 +361,25 @@
             ]
         },
         {
+            "description": "Sandwich",
+            "environmentShapes": [
+                { "type": "square", "width": 600, "height": 100, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "circle", "diameter": 250 },
+                { "type": "circle", "diameter": 250 },
+                { "type": "square", "width": 600, "height": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 100 },
+                { "type": "circle", "diameter": 250 },
+                { "type": "circle", "diameter": 250 },
+                { "type": "triangle", "width": 500, "height": 200 }
+            ]
+        }, {
             "description": "Lollipop",
             "environmentShapes": [
                 {"type": "square", "width": 80, "height": 80, "deg": 0, "pos": [0, -500]},
