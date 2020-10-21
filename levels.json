@@ -83,7 +83,7 @@
                 { "type": "triangle", "width": 800, "height": 200 }
             ]
         }, {
-            "description": "Ramps",
+            "description": "IQ Test",
             "environmentShapes": [
                 { "type": "square", "width": 400.0, "height": 50, "pos": [175, 300], "deg": 15 },
                 { "type": "square", "width": 400.0, "height": 50, "pos": [-175, 100], "deg": -15 },
