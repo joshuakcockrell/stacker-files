@@ -153,29 +153,6 @@
                 { "type": "hail", "delay": 2 }
             ]
         }, {
-            "description": "Hail on the pyramid",
-            "environmentShapes": [
-                {
-                    "type": "square", "width": 700, "height": 50, "pos": [0, -600] }
-            ],
-            "shapes": [
-                { "type": "triangleRight", "width": 120, "deg": 90 },
-                { "type": "triangleRight", "width": 120 },
-                { "type": "square", "width": 120 },
-                { "type": "square", "width": 120 },
-                { "type": "triangleRight", "width": 120, "deg": 90 },
-                { "type": "triangleRight", "width": 120 },
-                { "type": "square", "width": 120 },
-                { "type": "square", "width": 120 },
-                { "type": "square", "width": 120 },
-                { "type": "triangleRight", "width": 120, "deg": 90 },
-                { "type": "square", "width": 120 },
-                { "type": "triangleRight", "width": 120 }
-            ],
-            "weather": [
-                { "type": "hail", "delay": 2 }
-            ]
-        }, {
             "description": "Upside down",
             "environmentShapes": [
                 { "type": "square", "width": 100, "pos": [0, -600] }
@@ -475,6 +452,29 @@
             ]
         },
         {
+            "description": "Hail on the pyramid",
+            "environmentShapes": [
+                {
+                    "type": "square", "width": 700, "height": 50, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "triangleRight", "width": 120, "deg": 90 },
+                { "type": "triangleRight", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "triangleRight", "width": 120, "deg": 90 },
+                { "type": "triangleRight", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "square", "width": 120 },
+                { "type": "triangleRight", "width": 120, "deg": 90 },
+                { "type": "square", "width": 120 },
+                { "type": "triangleRight", "width": 120 }
+            ],
+            "weather": [
+                { "type": "hail", "delay": 2 }
+            ]
+        }, {
             "description": "Planko",
             "environmentShapes": [
                 {"type": "circle", "diameter": 40, "pos": [ 50, -600]},
