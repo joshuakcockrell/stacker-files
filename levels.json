@@ -43,19 +43,6 @@
                 { "type": "triangle", "width": 100, "height": 80 }
             ]
         }, {
-            "description": "Upside down",
-            "environmentShapes": [
-                { "type": "square", "width": 100, "pos": [0, -600] }
-            ],
-            "shapes": [
-                { "type": "square", "width": 60 },
-                { "type": "square", "width": 100 },
-                { "type": "square", "width": 150 },
-                { "type": "square", "width": 200 },
-                { "type": "square", "width": 450 }
-            ],
-            "cantSkip": true
-        }, {
             "description": "Roof",
             "environmentShapes": [
                 { "type": "square", "width": 100, "height": 100, "pos": [200, -600] },
@@ -115,6 +102,22 @@
                 { "type": "triangle", "width": 500, "height": 200 }
             ]
         }, {
+            "description": "Ramps",
+            "environmentShapes": [
+                { "type": "square", "width": 400.0, "height": 50, "pos": [175, 300], "deg": 15 },
+                { "type": "square", "width": 400.0, "height": 50, "pos": [-175, 100], "deg": -15 },
+                { "type": "square", "width": 400.0, "height": 50, "pos": [175, -100], "deg": 15 },
+                { "type": "square", "width": 400.0, "height": 50, "pos": [-175, -300], "deg": -15 }            ],
+            "shapes": [
+                { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 },
+                { "type": "circle", "diameter": 100 }
+            ],
+            "cantSkip": true
+        }, {
             "description": "Protect your shapes from hail",
             "environmentShapes": [
                 {
@@ -133,22 +136,6 @@
             "weather": [
                 { "type": "hail", "delay": 2 }
             ]
-        }, {
-            "description": "Ramps",
-            "environmentShapes": [
-                { "type": "square", "width": 400.0, "height": 50, "pos": [175, 300], "deg": 15 },
-                { "type": "square", "width": 400.0, "height": 50, "pos": [-175, 100], "deg": -15 },
-                { "type": "square", "width": 400.0, "height": 50, "pos": [175, -100], "deg": 15 },
-                { "type": "square", "width": 400.0, "height": 50, "pos": [-175, -300], "deg": -15 }            ],
-            "shapes": [
-                { "type": "circle", "diameter": 100 },
-                { "type": "circle", "diameter": 100 },
-                { "type": "circle", "diameter": 100 },
-                { "type": "circle", "diameter": 100 },
-                { "type": "circle", "diameter": 100 },
-                { "type": "circle", "diameter": 100 }
-            ],
-            "cantSkip": true
         }, {
             "description": "Piramid",
             "environmentShapes": [
@@ -170,7 +157,21 @@
                 { "type": "triangleRight", "width": 120 }
             ],
             "weather": [
+                { "type": "hail", "delay": 2 }
             ]
+        }, {
+            "description": "Upside down",
+            "environmentShapes": [
+                { "type": "square", "width": 100, "pos": [0, -600] }
+            ],
+            "shapes": [
+                { "type": "square", "width": 60 },
+                { "type": "square", "width": 100 },
+                { "type": "square", "width": 150 },
+                { "type": "square", "width": 200 },
+                { "type": "square", "width": 450 }
+            ],
+            "cantSkip": true
         }, {
             "description": "Play Pen",
             "environmentShapes": [
@@ -211,6 +212,31 @@
                 {"type": "circle", "diameter": 100},
                 {"type": "circle", "diameter": 100},
                 {"type": "square", "width": 600, "height": 80, "deg": 0}
+            ]
+        }, {
+            "description": "Tree house",
+            "environmentShapes": [
+                {"type": "square", "width": 100, "height": 100, "deg": 0, "pos": [0, -500]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 600, "height": 50, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 300, "deg": 0},
+                {"type": "square", "width": 100, "height": 300, "deg": 0},
+                {"type": "square", "width": 100, "height": 300, "deg": 0},
+                {"type": "square", "width": 100, "height": 300, "deg": 0},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80},
+                {"type": "circle", "diameter": 80}
             ]
         }, {
             "description": "Stickman",
@@ -269,9 +295,10 @@
         }, {
             "description": "Snowcone",
             "environmentShapes": [
-                {"type": "square", "width": 200, "height": 100, "deg": 0, "pos": [0, -500]}
+                {"type": "square", "width": 105, "height": 100, "deg": 0, "pos": [0, -500]}
             ],
             "shapes": [
+                {"type": "square", "width": 45, "height": 45, "deg": 0},
                 {"type": "square", "width": 60, "height": 60, "deg": 0},
                 {"type": "square", "width": 100, "height": 100, "deg": 0},
                 {"type": "square", "width": 150, "height": 100, "deg": 0},
@@ -342,15 +369,14 @@
         {
             "description": "Quick Fingers",
             "environmentShapes": [
-                {"type": "square", "width": 400, "height": 50, "deg": 0, "pos": [0, -500]}
+                {"type": "square", "width": 300, "height": 50, "deg": 0, "pos": [0, -500]}
             ],
             "shapes": [
-                {"type": "circle", "diameter": 50},
-                {"type": "circle", "diameter": 50},
-                {"type": "square", "width": 300, "height": 300, "deg": 0},
-                {"type": "square", "width": 300, "height": 300, "deg": 0},
-                {"type": "square", "width": 300, "height": 300, "deg": 0},
-                {"type": "square", "width": 300, "height": 300, "deg": 0}
+                {"type": "circle", "diameter": 200},
+                {"type": "square", "width": 300, "height": 100, "deg": 0},
+                {"type": "square", "width": 300, "height": 100, "deg": 0},
+                {"type": "square", "width": 300, "height": 100, "deg": 0},
+                {"type": "square", "width": 300, "height": 100, "deg": 0}
             ]
         },
         {
@@ -365,7 +391,7 @@
                 {"type": "square", "width": 80, "height": 80, "deg": 0},
                 {"type": "square", "width": 80, "height": 80, "deg": 0},
                 {"type": "square", "width": 80, "height": 80, "deg": 0},
-                {"type": "square", "width": 400, "height": 40, "deg": 0},
+                {"type": "square", "width": 400, "height": 70, "deg": 0},
                 {"type": "square", "width": 160, "height": 160, "deg": 0},
                 {"type": "square", "width": 160, "height": 160, "deg": 0},
                 {"type": "square", "width": 160, "height": 160, "deg": 0},
@@ -374,32 +400,6 @@
                 {"type": "square", "width": 80, "height": 80, "deg": 0},
                 {"type": "square", "width": 80, "height": 80, "deg": 0},
                 {"type": "square", "width": 160, "height": 80, "deg": 0}
-            ]
-        },
-        {
-            "description": "Tree house",
-            "environmentShapes": [
-                {"type": "square", "width": 100, "height": 100, "deg": 0, "pos": [0, -500]}
-            ],
-            "shapes": [
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "square", "width": 600, "height": 50, "deg": 0},
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "square", "width": 100, "height": 300, "deg": 0},
-                {"type": "square", "width": 100, "height": 300, "deg": 0},
-                {"type": "square", "width": 100, "height": 300, "deg": 0},
-                {"type": "square", "width": 100, "height": 300, "deg": 0},
-                {"type": "circle", "diameter": 80},
-                {"type": "circle", "diameter": 80},
-                {"type": "circle", "diameter": 80},
-                {"type": "circle", "diameter": 80},
-                {"type": "circle", "diameter": 80},
-                {"type": "circle", "diameter": 80},
-                {"type": "circle", "diameter": 80},
-                {"type": "circle", "diameter": 80}
             ]
         },
         {
@@ -432,7 +432,7 @@
                 {"type": "circle", "diameter": 1000, "pos": [-650, -550]}
             ],
             "shapes": [
-                {"type": "triangleRight", "width": 350, "deg": 90 },
+                {"type": "triangleRight", "width": 309, "deg": 120 },
                 {"type": "circle", "diameter": 100},
                 {"type": "circle", "diameter": 100},
                 {"type": "circle", "diameter": 100},
@@ -538,6 +538,9 @@
                 { "type": "square", "width": 75, "height": 75, "deg": 45 },
                 { "type": "square", "width": 75, "height": 75, "deg": 45 },
                 { "type": "square", "width": 75, "height": 75, "deg": 45 },
+                {"type": "circle", "diameter": 74},
+                {"type": "circle", "diameter": 74},
+                {"type": "circle", "diameter": 74},
                 {"type": "circle", "diameter": 74},
                 {"type": "circle", "diameter": 74},
                 {"type": "circle", "diameter": 74},
