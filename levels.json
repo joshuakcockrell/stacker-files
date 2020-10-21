@@ -113,6 +113,27 @@
             ],
             "cantSkip": true
         }, {
+            "description": "Crows Nest",
+            "environmentShapes": [
+                {"type": "square", "width": 100, "height": 100, "deg": 0, "pos": [0, -500]}
+            ],
+            "shapes": [
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 600, "height": 50, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "square", "width": 100, "height": 100, "deg": 0},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100},
+                {"type": "circle", "diameter": 100}
+            ]
+        }, {
             "description": "Protect your shapes from hail",
             "environmentShapes": [
                 {
@@ -297,27 +318,6 @@
             "shapes": [
                 {"type": "square", "width": 80, "height": 700, "deg": 0},
                 {"type": "square", "width": 80, "height": 700, "deg": 0}
-            ]
-        }, {
-            "description": "Crows Nest",
-            "environmentShapes": [
-                {"type": "square", "width": 100, "height": 100, "deg": 0, "pos": [0, -500]}
-            ],
-            "shapes": [
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "square", "width": 600, "height": 50, "deg": 0},
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "square", "width": 100, "height": 100, "deg": 0},
-                {"type": "circle", "diameter": 100},
-                {"type": "circle", "diameter": 100},
-                {"type": "circle", "diameter": 100},
-                {"type": "circle", "diameter": 100},
-                {"type": "circle", "diameter": 100},
-                {"type": "circle", "diameter": 100},
-                {"type": "circle", "diameter": 100},
-                {"type": "circle", "diameter": 100}
             ]
         }, {
             "description": "What the..",
